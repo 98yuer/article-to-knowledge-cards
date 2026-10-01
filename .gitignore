@@ -1,0 +1,26 @@
+# WorkBuddy 会话数据与本地记忆（含个人信息，不入库）
+.workbuddy/
+
+# 系统垃圾
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 编辑器与临时文件
+*.tmp
+*.temp
+*.bak
+*~
+*.swp
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+
+# Node
+node_modules/
+
+# 本 skill 的产出文件之一，来源为已发表期刊论文，暂不入库
+信贷冲击融资约束与企业风险-知识卡片.md

@@ -1,0 +1,7 @@
+interface:
+  display_name: "知识卡片生成器"
+  short_description: "把文章或 Markdown/TXT 提炼成 5~8 张去重、不编造的知识卡片"
+  default_prompt: "使用 $make-knowledge-cards 把这段正文（或这个 Markdown/TXT 文件）提炼为知识卡片：每张卡只讲一个知识点，包含标题、核心知识、简明解释、例子或自测问题，并标注来源；原文信息不足时按实际数量输出，不要凑数或编造。"
+
+policy:
+  allow_implicit_invocation: true
